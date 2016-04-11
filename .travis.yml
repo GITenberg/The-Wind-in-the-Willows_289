@@ -1,0 +1,59 @@
+sudo: required
+dist: trusty
+language: ruby
+
+before_install:
+- gem install asciidoctor -v 1.5.2 
+- gem install tilt
+- sudo pip install git+https://github.com/rdhyee/ebooklib.git
+script:
+- VERSION=`ruby -e "require 'yaml'; meta = YAML.load_file('metadata.yaml'); puts meta['_version'];"`
+- git clone https://github.com/gitenberg-dev/asciidoctor-htmlbook.git
+
+- sudo pip install -r asciidoctor-htmlbook/gitberg-machine/requirements.txt
+- asciidoctor -a toc,idprefix=xx_,version=$VERSION -b xhtml5 -T ./asciidoctor-htmlbook/htmlbook-autogen/
+  -d book book.asciidoc -o book.html
+- git clone https://github.com/gitenberg-dev/HTMLBook
+
+# make book.html available to jinja2 environment by putting it into templates
+- cp book.html asciidoctor-htmlbook/gitberg-machine/templates/
+
+- /usr/bin/python asciidoctor-htmlbook/gitberg-machine/machine.py -o . -m metadata.yaml book.html
+- xsltproc -stringparam external.assets.list " " ./HTMLBook/htmlbook-xsl/epub.xsl book.html
+- cp ./HTMLBook/stylesheets/epub/epub.css OEBPS
+- if [ -e cover.jpg ]; then cp cover.jpg OEBPS/cover.jpg; fi
+# look for first images directory and one found, copy over to ./OEBPS
+- find . -name images -type d | head -n 1 | xargs -I {} mv {} ./OEBPS/
+- zip -rX book.epub mimetype
+- zip -rX book.epub OEBPS/ META-INF/
+- if test -d "OEBPS/images/"; then zip -rX book.epub OEBPS/images/ ;fi
+- mv book.epub The-Wind-in-the-Willows.epub
+- ebook-convert The-Wind-in-the-Willows.epub The-Wind-in-the-Willows.mobi
+- xvfb-run ebook-convert The-Wind-in-the-Willows.epub The-Wind-in-the-Willows.pdf
+branches:
+  only:
+  - master
+notifications:
+  webhooks:
+    urls:
+      - https://unglue.it/api/travisci/webhook
+    on_success: always
+    on_failure: never
+    on_start: never
+deploy:
+  skip_cleanup: true
+  provider: releases
+  api_key:
+    secure: vTvo8b+tiplCX21PNrKLzetMzqW2yFHmETGKMbZPYaACX21DIbnHLVfsmPtqkucaVkzrX1PN0498QrFVdcCDIehsWfEEueOj2ULNWbztbb7qNRtrjJPsBaIpvlc2K7i5S6P+WAaPMDZPOIk9o6dKJ12aY4xAVXfXPCzaxgoKpN5T7w/YdY6/r63OYl9LAlUUeENXgRIRKMqGHaiNNCDzjAnYzAQXhBi9geM8E021gpCtUX1hqh+Lc6gTd28e/yMFN8wNiSh4RNUkpNz9EEjCkL71PKT/TCwhkwUZpX3agUUfCWLV2WDwF1Snkk0p8N6b27YvHH3Nh0ZJincAcIloWEy3Hw0dbULy/E275ucjxpowjeHvH58tr4uOU5RiInsSm5S/Lstqg1ldLwQmh1bltZgcIvq48/otdJk9QFN1ZrBk9lEIC7PK0y3YGqZLRKNImARPETFn9McCYJPOtM5mhR6mYwWj8OAaxbQDK5Il35Fziid2BnrVOgnbmdxS0f8O/eCxnAxUeJqh8Cuyajc8j7vgofH2vLWD4CV7F9vske5AHlkQV4Z0RDwKZlVeClAeVxY+vXuvReRTcmS4/00ATK+/GXwb+80u+Od8fsNoa29FHUDZCTpip+xWpAfXlJMmjuc/zAd3tv9EcJZtelqQzkrg7PLLHWRGQpEvlQjNyK4=
+  file:
+    - The-Wind-in-the-Willows.epub
+    - The-Wind-in-the-Willows.mobi
+    - The-Wind-in-the-Willows.pdf
+  "on":
+    repo: GITenberg/The-Wind-in-the-Willows_289
+addons:
+  apt:
+    packages:
+    - xsltproc
+    - xvfb
+    - calibre
