@@ -1,5 +1,8 @@
 _repo: The-Wind-in-the-Willows_289
-_version: 0.1.1
+_version: 0.2.0
+covers:
+- cover_type: generated
+  image_path: cover.png
 creator:
   author:
     agent_name: Grahame, Kenneth
@@ -9,6 +12,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/153
     wikipedia: http://en.wikipedia.org/wiki/Kenneth_Grahame
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/289#The-Wind-in-the-Willows
 gutenberg_bookshelf:
 - Best Books Ever Listings
 - Children's Literature
