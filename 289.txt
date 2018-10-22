@@ -555,16 +555,16 @@ attend to his own affairs and leave them to mind theirs. So the Rat went
 away, and sat on the river bank in the sun, and made up a song about
 them, which he called
 
-          
+
             'DUCKS' DITTY.'
 
           All along the backwater,
           Through the rushes tall,
           Ducks are a-dabbling,
           Up tails all!
-          Ducks' tails, drakes' tails, 
-          Yellow feet a-quiver, 
-          Yellow bills all out of sight 
+          Ducks' tails, drakes' tails,
+          Yellow feet a-quiver,
+          Yellow bills all out of sight
           Busy in the river!
 
           Slushy green undergrowth
@@ -573,11 +573,11 @@ them, which he called
           Cool and full and dim.
 
           Everyone for what he likes!
-          _We_ like to be 
+          _We_ like to be
           Heads down, tails up,
           Dabbling free!
 
-          High in the blue above 
+          High in the blue above
           Swifts whirl and call--
           _We_ are down a-dabbling
           Uptails all!
@@ -2167,7 +2167,7 @@ sanded underfoot, and directly facing them was Mole's little front door,
 with 'Mole End' painted, in Gothic lettering, over the bell-pull at the
 side.
 
-Mole reached down a lantern from a nail on the wail and lit it, and the
+Mole reached down a lantern from a nail on the wall and lit it... and the
 Rat, looking round him, saw that they were in a sort of fore-court. A
 garden-seat stood on one side of the door, and on the other a roller;
 for the Mole, who was a tidy animal when at home, could not stand having
@@ -2294,22 +2294,22 @@ fields that were fallow and held by frost, or when snow-bound in chimney
 corners, and handed down to be sung in the miry street to lamp-lit
 windows at Yule-time.
 
-          
+
                       CAROL
 
           Villagers all, this frosty tide,
           Let your doors swing open wide,
-          Though wind may follow, and snow beside, 
+          Though wind may follow, and snow beside,
            Yet draw us in by your fire to bide;
              Joy shall be yours in the morning!
 
-          Here we stand in the cold and the sleet, 
+          Here we stand in the cold and the sleet,
           Blowing fingers and stamping feet,
           Come from far away you to greet--
            You by the fire and we in the street--
             Bidding you joy in the morning!
 
-          For ere one half of the night was gone, 
+          For ere one half of the night was gone,
           Sudden a star has led us on,
           Raining bliss and benison--
            Bliss to-morrow and more anon,
@@ -4746,30 +4746,30 @@ and sang it at the top of his voice, though there was no one to hear
 it but him. It was perhaps the most conceited song that any animal ever
 composed.
 
-          
-          'The world has held great Heroes, 
-            As history-books have showed; 
-          But never a name to go down to fame 
+
+          'The world has held great Heroes,
+            As history-books have showed;
+          But never a name to go down to fame
             Compared with that of Toad!
 
-          'The clever men at Oxford 
-            Know all that there is to be knowed. 
-          But they none of them know one half as much 
+          'The clever men at Oxford
+            Know all that there is to be knowed.
+          But they none of them know one half as much
             As intelligent Mr. Toad!
 
-          'The animals sat in the Ark and cried, 
+          'The animals sat in the Ark and cried,
             Their tears in torrents flowed.
-          Who was it said, "There's land ahead?" 
+          Who was it said, "There's land ahead?"
             Encouraging Mr. Toad!
 
-          'The army all saluted 
-            As they marched along the road. 
-          Was it the King? Or Kitchener? 
+          'The army all saluted
+            As they marched along the road.
+          Was it the King? Or Kitchener?
             No. It was Mr. Toad.
 
-          'The Queen and her Ladies-in-waiting 
-            Sat at the window and sewed. 
-          She cried, "Look! who's that _handsome_ man?" 
+          'The Queen and her Ladies-in-waiting
+            Sat at the window and sewed.
+          She cried, "Look! who's that _handsome_ man?"
             They answered, "Mr. Toad."'
 
 
@@ -4918,10 +4918,10 @@ where they should rightly be? Why, Toad, of course; clever Toad, great
 Toad, GOOD Toad!'
 
 Then he burst into song again, and chanted with uplifted voice--
-          
-          'The motor-car went Poop-poop-poop, 
-            As it raced along the road. 
-          Who was it steered it into a pond? 
+
+          'The motor-car went Poop-poop-poop,
+            As it raced along the road.
+          Who was it steered it into a pond?
             Ingenious Mr. Toad!
 
 O, how clever I am! How clever, how clever, how very clev----'
@@ -5709,13 +5709,13 @@ Toad!' (shrieks of merriment).
 composed on the subject of Toad'--(prolonged applause).
 
 Then the Chief Weasel--for it was he--began in a high, squeaky voice--
-          
-          'Toad he went a-pleasuring 
+
+          'Toad he went a-pleasuring
           Gaily down the street--'
 
 The Badger drew himself up, took a firm grip of his stick with both
 paws, glanced round at his comrades, and cried--
-           
+
 'The hour is come! Follow me!'
 
 And flung the door open wide.
@@ -5882,7 +5882,7 @@ the Chief Weasel flat; and he would hint at his adventures, and what a
 career of triumph he had to tell about; and on the fly-leaf he would set
 out a sort of a programme of entertainment for the evening--something
 like this, as he sketched it out in his head:--
-  
+
   SPEECH. . . . BY TOAD.
   (There will be other speeches by TOAD during the evening.)
 
@@ -6000,26 +6000,26 @@ Then he bowed, coughed twice, and, letting himself go, with uplifted
 voice he sang, to the enraptured audience that his imagination so
 clearly saw.
 
-  
+
                   TOAD'S LAST LITTLE SONG!
 
-  The Toad--came--home! 
-  There was panic in the parlours and howling in the halls, 
+  The Toad--came--home!
+  There was panic in the parlours and howling in the halls,
   There was crying in the cow-sheds and shrieking in the stalls,
   When the Toad--came--home!
 
-  When the Toad--came--home! 
-  There was smashing in of window and crashing in of door, 
+  When the Toad--came--home!
+  There was smashing in of window and crashing in of door,
   There was chivvying of weasels that fainted on the floor,
   When the Toad--came--home!
 
-  Bang! go the drums! 
-  The trumpeters are tooting and the soldiers are saluting, 
-  And the cannon they are shooting and the motor-cars are hooting, 
+  Bang! go the drums!
+  The trumpeters are tooting and the soldiers are saluting,
+  And the cannon they are shooting and the motor-cars are hooting,
   As the--Hero--comes!
 
-  Shout--Hoo-ray! 
-  And let each one of the crowd try and shout it very loud, 
+  Shout--Hoo-ray!
+  And let each one of the crowd try and shout it very loud,
   In honour of an animal of whom you're justly proud,
   For it's Toad's--great--day!
 
